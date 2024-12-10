@@ -484,6 +484,9 @@ h3 {
     max-width: 700px;
 }
 
+.skill_ptag {
+    text-align: left;
+}
 
 .btm_half_circle {
     position: relative;
@@ -517,4 +520,13 @@ h3 {
     font-size: 24px;
     font-family: 'Recursive', sans-serif;
     font-weight: 300;
+}
+
+/* ul li strong {
+    color: white;
+} */
+
+ul li span {
+    color: #81C7BC;
+    font-weight: 900;
 }
