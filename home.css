@@ -44,7 +44,7 @@ body {
     bottom: 0;
     left: 50%;
     width: 200vw;
-    height: 174vw;
+    height: 200vw;
     margin-left: -100vw;
     border-radius: 49%;
     background-color: #2e3445;
@@ -107,7 +107,6 @@ h5 {
     top: 30px;
     width: 100vw;
     text-align: center;
-    text-align: center;
 }
 
 
@@ -149,7 +148,6 @@ h5 {
 .centre-image-div img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -508,7 +506,7 @@ h3 {
     top: 0;
     left: 50%;
     width: 200vw;
-    height: 174vw;
+    height: 200vw;
     margin-left: -100vw;
     border-radius: 49%;
     background-color: #2e3445;
@@ -529,4 +527,113 @@ h3 {
 ul li span {
     color: #81C7BC;
     font-weight: 900;
+}
+
+
+
+
+/* mobile devices  */
+@media only screen and (max-width: 768px) {
+    .half-circle {
+        position: relative;
+        width: 100vw;
+        height: 200px;
+    }
+
+    .name-div {
+        top: 40px;
+    }
+
+    .name-div h5 {
+        margin-top: -19px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    #particles-js {
+        height: 47vh;
+    }
+
+    .centre-about-div {
+        height: 47vh;
+    }
+
+    .centre-image-div {
+        margin-top: 0px;
+        height: 100%;
+        width: 100%;
+        border-radius: none;
+    }
+
+    .centre-image-div img {
+        height: 100%;
+        width: auto;
+        border-radius: 50%;
+    }
+
+    .centre-para-div h4 {
+        font-size: 20px;
+    }
+
+    .section-part {
+        width: 100%;
+    }
+
+    .aboutme-para-div {
+        margin-top: -20px;
+    }
+
+    .com_p_tag {
+        font-size: 19px;
+    }
+
+    #mail-box-div {
+        width: 76%;
+        padding: 10px;
+        border: none;
+    }
+
+    .summon-me div p {
+        font-size: 18px;
+    }
+
+    .three-dot {
+        margin-top: 36px;
+    }
+
+    h2 {
+        font-size: 64px;
+    }
+
+    .resume_title {
+        margin: 30px 0px 0px 0px
+    }
+
+    .employement_heading::after,
+    .skill_heading::after,
+    .edu_heading::after {
+        margin-top: 30px;
+    }
+
+    .ofc_title {
+        font-size: 23px;
+    }
+
+    .year_tag {
+        font-size: 23px;
+    }
+
+    .job_title {
+        font-size: 20px;
+    }
+
+    .job_desc {
+        font-size: 18.5px;
+    }
+
+    .copy_right_tag {
+        font-size: 20px;
+    }
 }
