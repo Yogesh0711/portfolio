@@ -635,7 +635,7 @@ ul li span {
     .half-circle {
         position: relative;
         width: 100vw;
-        height: 200px;
+        height: 180px;
     }
 
     .name-div {
@@ -644,10 +644,11 @@ ul li span {
 
     .name-div h5 {
         margin-top: -19px;
+        font-size: 22px;
     }
 
     h1 {
-        font-size: 42px;
+        font-size: 33px;
     }
 
     #particles-js {
@@ -656,6 +657,7 @@ ul li span {
 
     .centre-about-div {
         height: 47vh;
+        text-align: center;
     }
 
     .centre-image-div {
@@ -685,6 +687,7 @@ ul li span {
 
     .com_p_tag {
         font-size: 19px;
+        padding: 0px 10px;
     }
 
     #mail-box-div {
@@ -694,7 +697,7 @@ ul li span {
     }
 
     .summon-me div p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .three-dot {
@@ -748,9 +751,11 @@ ul li span {
     .project_ptag {
         font-size: 10px;
         padding: 0px 5px;
+        margin-bottom: 5px;
     }
 
     .pro_desc_heading {
         font-size: 20px;
+        margin-bottom: 0px;
     }
 }
