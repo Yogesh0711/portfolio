@@ -735,9 +735,9 @@ ul li span {
     }
 
     .copy_right_tag {
-        font-size: 20px;
+        text-align: center;
+        font-size: 17px;
     }
-
 
     /* project */
     .lastest-project-div {
