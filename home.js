@@ -16,3 +16,9 @@ function updateImage() {
 }
 
 setInterval(updateImage, 8000);
+
+document.getElementById('mail-box-div').addEventListener('click', function () {
+    console.log('occured')
+    const email = "yogeshramya475@gmail.com"
+    window.location.href = `mailto:${email}`
+})
